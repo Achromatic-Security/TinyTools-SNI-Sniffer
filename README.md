@@ -16,25 +16,7 @@ Most of the modules used should already be installed by default. However the two
 
 usage: sni_sniff.py [-h] -i INTERFACE [-o OUTPUT]
 
- (        )  (      (        )  (    (     (          (     
- )\ )  ( /(  )\ )   )\ )  ( /(  )\ ) )\ )  )\ )       )\ )  
-(()/(  )\())(()/(  (()/(  )\())(()/((()/( (()/(  (   (()/(  
- /(_))((_)\  /(_))  /(_))((_)\  /(_))/(_)) /(_)) )\   /(_)) 
-(_))   _((_)(_))   (_))   _((_)(_)) (_))_|(_))_|((_) (_))   
-/ __| | \| ||_ _|  / __| | \| ||_ _|| |_  | |_  | __|| _ \  
-\__ \ | .` | | |   \__ \ | .` | | | | __| | __| | _| |   /  
-|___/ |_|\_||___|  |___/ |_|\_||___||_|   |_|   |___||_|_\  
-                                                                                                            
-SNI Sniffer 0.1 TinyTool by Achromatic Security UK
-visit https://www.achromatic-security.com/tools for more details.
-Thanks.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -i INTERFACE, --interface INTERFACE
-                        Specify the interface in which to listen on e.g eth0
-  -o OUTPUT, --output OUTPUT
-                        File to log all requests to (requests will be
-                        displayed in stdout if not specified)
-
+-i specify the interface in which you wish to listen on
+-o specify an output file to write to (csv formatted output)
+*If the -o is not provided then the results will be written to stdout
 
