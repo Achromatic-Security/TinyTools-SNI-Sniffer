@@ -9,7 +9,9 @@ Visit https://www.achromatic-security.com/blog-sni-sniffer for more information 
 ## Requirements
 
 Most of the modules used should already be installed by default. However the two you will need to install our:
+
 *Scapy
+
 *Scapy-ssl_tls - Follow the instructions here to install: https://github.com/tintinweb/scapy-ssl_tls
 
 ## Usage
@@ -17,6 +19,8 @@ Most of the modules used should already be installed by default. However the two
 usage: sni_sniff.py [-h] -i INTERFACE [-o OUTPUT]
 
 -i specify the interface in which you wish to listen on
+
 -o specify an output file to write to (csv formatted output)
+
 *If the -o is not provided then the results will be written to stdout
 
