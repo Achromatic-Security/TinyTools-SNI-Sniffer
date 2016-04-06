@@ -4,7 +4,7 @@ A simply SNI sniffer which has been wrote as part of the tiny tools series by Ac
 
 This tool simply listens on a specified interface and passively intercepts SSL/TLS connections and attempts to extract the SNI.
 
-Visit https://www.achromatic-security.com/blog-sni-sniffer for more information on SNIs
+Visit https://www.achromatic-security.com/blog-sni-sniffing for more information on SNIs
 
 ## Requirements
 
